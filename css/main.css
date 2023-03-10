@@ -1,10 +1,194 @@
-body{
+body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    background-color: #d4e9e7;
+.container {
+    background-color: #c2dbd9;
     width: 1024px;
     margin: 0 auto;
+}
+
+.center {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 68px;
+    color:white;
+    margin: 0 auto;
+}
+
+.lone-starfish-wide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    float: none;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid #c4c4c4;
+    display: inline-block;
+    padding: 10px 100px;
+    margin: auto;
+    font-size: 27px;
+}
+
+.nav li:last-child {
+    border-right: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+h2{
+    font-size: 40pt;
+}
+
+#img2 {
+    float: left;
+    height: 252pt;
+    width: 248pt;
+    margin-top: -12pt;
+    margin-bottom: 39px;
+    margin-left: 11pt;
+    margin-right: 19pt;
+}
+
+nav li: hover {
+    background-color: skyblue;
+}
+
+nav li: active {
+    background-color: #ffff;
+}
+
+.text-wrapper {
+    text-align: justify;
+    font-size: 15pt;
+    margin-right: 19pt;
+    margin-left: 11pt;
+    margin-top: -20px;
+}
+
+h3 {
+    font-size: 31pt;
+}
+
+.item-list {
+    font-size: 16pt;
+}
+
+#form{
+    padding: 10px;
+    margin: 10px;
+}
+
+nav li:hover {
+    background-color: #6bc4f5;
+    color:black;
+}
+     
+.name {
+    font-size: 19pt;
+}
+
+.mail {
+    font-size: 19pt;
+}
+
+.message {
+    font-size: 19pt;
+}
+
+p{
+    font-size: 25pt;
+}
+
+label{
+    font-size: 19pt;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.borderline {
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+input [type='text'] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 29px;
+    border: 1px solid black;
+    margin-bottom: 12px;
+    padding: 7px;
+}
+
+button {
+    padding: 2px;
+    font-size: 13pt;
+    background-color: #d4e9e7;
+    height: 38pt;
+    width: 54pt;
+    margin-bottom: 16px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%
+    height: 100px;
+    border: .5px solid black;
+    margin-bottom: 2px;
+}
+
+h2, h3 {
+    margin-left: 10pt;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 42px;
+}
+
+.radio{
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: skyblue;
+}
+
+main .container{
+    margin-left: 430px;
+    padding-top: 1px;
+}
+
+footer{
+    margin-bottom: 13px;
+}
+
+footer div{
+    font-size: 13px;
+    text-align: right;
+    padding-bottom: 20px;
+    margin-right: 20px;
 }
